@@ -1,0 +1,26 @@
+server:
+    port: 8884
+    
+#spring:
+#    security:
+#        user:
+#            name: thilina
+#            password: test
+#            roles: ADMIN
+#
+#security:
+#    oauth2:
+#        client:
+#            client-id: abc
+#            client-secret: 123
+#            access-token-validity-seconds: 3600
+#            authorized-grant-types: refresh_token, authorization_code, password, client_credentials
+#            scope: READ, WRITE
+
+spring:
+    data:
+        mongodb:
+            database: userdb
+            url: mongodb://localhost:27017
+                        
+            
